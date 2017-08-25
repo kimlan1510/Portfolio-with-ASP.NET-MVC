@@ -14,7 +14,12 @@ namespace Portfolio.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var Repos = Github.GetGithubRepos();
+            
+            return View();
+        }
+        public IActionResult GetRepos()
+        {
+            var Repos = Repo.GetRepos();
             return View(Repos);
         }
     }
