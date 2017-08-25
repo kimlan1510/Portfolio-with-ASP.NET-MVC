@@ -22,5 +22,9 @@ namespace Portfolio.Controllers
             var Repos = Repo.GetRepos();
             return View(Repos);
         }
+        public IActionResult Journey()
+        {
+            return View();
+        }
     }
 }

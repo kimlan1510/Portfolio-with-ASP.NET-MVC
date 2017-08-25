@@ -1,12 +1,15 @@
 ﻿@model IEnumerable<Portfolio.Models.Repo>
-<h1>My top 3 github repositories</h1>
-@foreach (var repo in Model)
-{
-    <ul>
-        <li>Repo Id: @Html.DisplayFor(r => repo.Id)</li>
-        <li>Repo Name: @Html.DisplayFor(r => repo.Name)</li>
-        <li>Repo Description: @Html.DisplayFor(r => repo.Description)</li>
-        <li>Repo URL: <a href="@Html.DisplayFor(r => repo.Html_Url)">Link</a> </li>
+<main>
+    <h1>My top 3 github repositories</h1>
+    @foreach (var repo in Model)
+    {
+        <ul>
+            <li>Repo Id: @Html.DisplayFor(r => repo.Id)</li>
+            <li>Repo Name: @Html.DisplayFor(r => repo.Name)</li>
+            <li>Repo Description: @Html.DisplayFor(r => repo.Description)</li>
+            <li>Repo URL: <a href="@Html.DisplayFor(r => repo.Html_Url)">Link</a> </li>
 
-    </ul>
-}
+        </ul>
+    }
+
+</main>
