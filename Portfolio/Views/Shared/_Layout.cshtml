@@ -12,37 +12,34 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-   <div class="SideNave">
-        <ul id="slide-out" class="side-nav fixed" >
-            <li>
-                <div class="user-view">
-                    <div class="background">
-                        <img src="~/Images/light-pink-solid-color-background.jpg">
-                    </div>
-                    <a href="#!user"><img class="circle" src="~/Images/hinh.jpg"/></a>
-                    <a href="https://www.linkedin.com/in/kimlan-nguyen/">LinkedIn</a><br />
-                    <a href="https://github.com/kimlan1510">Github</a><br />
-                    <a>kimlan1510@gmail.com</a>
-                    
+   
+    <ul id="slide-out" class="side-nav fixed" >
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="~/Images/light-pink-solid-color-background.jpg">
                 </div>
-            </li>
-            <li><a asp-controller="Home" asp-action="Index"><i class="material-icons">person</i>About Me</a></li>
-            <li><a asp-controller="Home" asp-action="Journey"><i class="material-icons">merge_type</i>My Journey</a></li>
-            <li><a asp-controller="Home" asp-action="GetRepos"><i class="material-icons">web</i>My Projects</a></li>
+                <a href="#!user"><img class="circle" src="~/Images/hinh.jpg"/></a>
+                <a href="https://www.linkedin.com/in/kimlan-nguyen/">LinkedIn</a><br />
+                <a href="https://github.com/kimlan1510">Github</a><br />
+                <a>kimlan1510@gmail.com</a>
+                    
+            </div>
+        </li>
+        <li><a asp-controller="Home" asp-action="Index"><i class="material-icons">person</i>About Me</a></li>
+        <li><a asp-controller="Home" asp-action="Journey"><i class="material-icons">merge_type</i>My Journey</a></li>
+        <li><a asp-controller="Home" asp-action="GetRepos"><i class="material-icons">web</i>My Projects</a></li>
             
-        </ul>
-       <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
-   </div>
-    <a asp-controller="Home" asp-action="Index">Menu</a>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+  
+    
 
-
-
-
-        <div>
-            @RenderBody()
-        </div>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-        <script src="~/js/scripts.js"></script>
+    <div>
+        @RenderBody()
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script src="~/js/scripts.js"></script>
 </body>
 </html>

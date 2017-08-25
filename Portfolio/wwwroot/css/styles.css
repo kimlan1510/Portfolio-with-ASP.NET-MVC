@@ -2,12 +2,39 @@
     padding-left: 300px;
     
 }
-
-@media only screen and (max-width : 600px) {
+body{
+    background-color: cornflowerblue;
+}
+@media only screen and (max-width : 992px) {
     header, main, footer {
         padding-left: 0;
     }
 }
+
+.button-collapse{
+    color: white;
+}
+
+
 .background img{
     max-width: 100%;
+}
+.ProfileHeader{
+    height: 300px;
+    background-color: cornflowerblue;
+}
+.ProfileHeader img {
+    display: block;
+    margin: auto;
+    max-height: 185px;
+
+}
+.ProfileBody {
+    height: 100vh;
+    background-color: #00E676;
+}
+
+.ProfileBody p {
+    color: white;
+    padding: 10px;
 }
