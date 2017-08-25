@@ -4,3 +4,6 @@ c:\users\bo\documents\visual studio 2017\Projects\Portfolio\Portfolio\bin\Debug\
 c:\users\bo\documents\visual studio 2017\Projects\Portfolio\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.dll
 c:\users\bo\documents\visual studio 2017\Projects\Portfolio\Portfolio\obj\Debug\netcoreapp1.1\Portfolio.csprojResolveAssemblyReference.cache
 c:\users\bo\documents\visual studio 2017\Projects\Portfolio\Portfolio\obj\Debug\netcoreapp1.1\Portfolio.AssemblyInfo.cs
+c:\users\bo\documents\visual studio 2017\Projects\Portfolio\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.pdb
+c:\users\bo\documents\visual studio 2017\Projects\Portfolio\Portfolio\obj\Debug\netcoreapp1.1\Portfolio.dll
+c:\users\bo\documents\visual studio 2017\Projects\Portfolio\Portfolio\obj\Debug\netcoreapp1.1\Portfolio.pdb
