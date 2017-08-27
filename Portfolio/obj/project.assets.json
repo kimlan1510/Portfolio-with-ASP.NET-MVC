@@ -10004,10 +10004,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\bo\\documents\\visual studio 2017\\Projects\\Portfolio\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "C:\\Users\\Bo\\Documents\\Visual Studio 2017\\Projects\\Portfolio\\Portfolio\\Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "c:\\users\\bo\\documents\\visual studio 2017\\Projects\\Portfolio\\Portfolio\\Portfolio.csproj",
-      "outputPath": "c:\\users\\bo\\documents\\visual studio 2017\\Projects\\Portfolio\\Portfolio\\obj\\",
+      "projectPath": "C:\\Users\\Bo\\Documents\\Visual Studio 2017\\Projects\\Portfolio\\Portfolio\\Portfolio.csproj",
+      "outputPath": "C:\\Users\\Bo\\Documents\\Visual Studio 2017\\Projects\\Portfolio\\Portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
